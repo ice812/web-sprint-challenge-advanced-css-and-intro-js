@@ -289,11 +289,11 @@ Example: addArtist(artists) should return the artists array with the above objec
 function addArtist(arr){
   let obj = { 
     id: 20,
-    name: 'Kristin', 
+    name: 'Rene', 
     years: '1990 - 2020',
     genre: 'Web Design', 
     nationality: 'American',
-    bio: 'I like cats.'
+    bio: 'I like guitars.'
   }
   arr.push(obj);
   return arr;
